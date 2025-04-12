@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash More - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Yash More</h1>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#text-analyzer">Text Analyzer</a></li>
+                    <li><a href="cv/Resume.pdf" target="_blank">CV</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="profile-image">
+                        <img src="images/profile.jpeg" alt="Yash More Profile Picture">
+                    </div>
+                    <div class="about-text">
+                        <p>I am pursuing CLD programme in IIIT Hyderabad. I am studying in 1st year. I have done my schooling from RIMC dehradun. My interests include badminton, table tennis, playing piano, listening to music, photography, watching mystery movies, reading books, and learning new things.</p>
+                    </div>
+                </div>
+
+                <h3>My Birthplace</h3>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="images/birth1.jpeg" alt="Birthplace Image 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/birth2.jpeg" alt="Birthplace Image 2">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education & Achievements</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>IIIT Hyderabad</h3>
+                        <p class="timeline-date">2024 - Present</p>
+                        <p>Pursuing CLD programme after being selected through UGEE examination.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>RIMC Dehradun</h3>
+                        <p class="timeline-date">8th Grade - 12th Grade</p>
+                        <p>Selected for this prestigious institution in 8th grade.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Little Flower Convent, Biloli</h3>
+                        <p class="timeline-date">Till 7th Grade</p>
+                        <p>Completed early education.</p>
+                    </div>
+                </div>
+
+                <h3>Achievements</h3>
+                <ul class="achievements-list">
+                    <li>2 silver medals and 1 bronze medal in High Jump (athletics event) at school.</li>
+                    <li>Completed Paragliding Adventure course at Ahmednagar in 9th grade.</li>
+                    <li>1st price in creative writing for writing a poem in school in 8th grade.</li>
+                    <li>JEE Main Rank: 5239</li>
+                    <li>JEE Advanced Rank: 7200</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul class="skills-list">
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Experience In</h3>
+                        <ul class="skills-list">
+                            <li>Web Development</li>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Python Programming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Text Analyzer Section (Q3) -->
+        <section id="text-analyzer" class="section">
+            <div class="container">
+                <h2>Text Analyzer</h2>
+                <div class="text-analyzer-container">
+                    <div class="input-container">
+                        <label for="text-input">Enter text (minimum 10000 words recommended):</label>
+                        <textarea id="text-input" rows="10" placeholder="Paste your text here..."></textarea>
+                        <button id="analyze-btn">Analyze Text</button>
+                    </div>
+                    <div class="results-container">
+                        <h3>Analysis Results</h3>
+                        <div class="result-card">
+                            <h4>Basic Statistics</h4>
+                            <div id="basic-stats"></div>
+                        </div>
+                        <div class="result-card">
+                            <h4>Pronouns</h4>
+                            <div id="pronoun-stats"></div>
+                        </div>
+                        <div class="result-card">
+                            <h4>Prepositions</h4>
+                            <div id="preposition-stats"></div>
+                        </div>
+                        <div class="result-card">
+                            <h4>Indefinite Articles</h4>
+                            <div id="article-stats"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yash More | <a href="cv/Resume.pdf" target="_blank">Download CV</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -134,6 +134,10 @@ a:hover {
 .education-image-placeholder {
     margin: 15px 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .institution-image {

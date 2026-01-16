@@ -3,101 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yash More - Personal Website</title>
+    <title>Yash Sunil More - Resume</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <h1>Yash More</h1>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#text-analyzer">Text Analyzer</a></li>
-                    <li><a href="cv/Resume.pdf" target="_blank">CV</a></li>
-                </ul>
+    <!-- Profile Section -->
+    <section id="profile" class="profile-section">
+        <div class="container">
+            <div class="profile-image">
+                <img src="images/profile.jpeg" alt="Yash Sunil More" id="profile-pic">
             </div>
-        </nav>
-    </header>
+            <h1>Yash Sunil More</h1>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:yashsmore7499@gmail.com">yashsmore7499@gmail.com</a></p>
+                <p>Mobile: 8439932869</p>
+                <p>
+                    <a href="https://github.com/Yash-More1224" target="_blank">GitHub</a> | 
+                    <a href="https://www.linkedin.com/in/yash-more-066459258/" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </section>
 
-    <main>
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="container">
-                <h2>About Me</h2>
-                <div class="about-content">
-                    <div class="profile-image">
-                        <img src="images/profile.jpeg" alt="Yash More Profile Picture">
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <div class="education-header">
+                    <div class="education-left">
+                        <h3>International Institute of Information Technology, Hyderabad</h3>
+                        <p class="degree">B.Tech in Computer Science, MS by Research in Computational Linguistics</p>
+                        <p class="cgpa"><strong>CGPA: 7.9</strong></p>
                     </div>
-                    <div class="about-text">
-                        <p>I am pursuing CLD programme in IIIT Hyderabad. I am studying in 1st year. I have done my schooling from RIMC dehradun. My interests include badminton, table tennis, playing piano, listening to music, photography, watching mystery movies, reading books, and learning new things.</p>
+                    <div class="education-right">
+                        <p class="location">Hyderabad, Telangana</p>
+                        <p class="date">Aug. 2024 – Present</p>
                     </div>
                 </div>
-
-                <h3>My Birthplace</h3>
-                <div class="gallery">
-                    <div class="gallery-item">
-                        <img src="images/birth1.jpeg" alt="Birthplace Image 1">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="images/birth2.jpeg" alt="Birthplace Image 2">
-                    </div>
+                <div class="education-image-placeholder">
+                    <img src="images/iiith-placeholder.jpg" alt="IIIT Hyderabad" class="institution-image">
+                </div>
+                <div class="coursework">
+                    <p><strong>Coursework:</strong> Data Structures and Algorithms, Operating Systems and Networks, Data and Analysis, Computational Linguistics, Algorithm Analysis and Design, Probability and Statistics, Linear Algebra, Discrete Structures, Computer Programming, Digital Systems and Microcontrollers</p>
+                    <p><strong>Ongoing:</strong> Design and Analysis of Software Systems, Introduction to Natural Language Processing, Machine Data and Learning</p>
                 </div>
             </div>
-        </section>
 
-        <!-- Education Section -->
-        <section id="education" class="section">
-            <div class="container">
-                <h2>Education & Achievements</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <h3>IIIT Hyderabad</h3>
-                        <p class="timeline-date">2024 - Present</p>
-                        <p>Pursuing CLD programme after being selected through UGEE examination.</p>
+            <div class="education-item">
+                <div class="education-header">
+                    <div class="education-left">
+                        <h3>Rashriya Indian Military College, Dehradun</h3>
+                        <p class="degree">8th Grade to 12th Grade</p>
                     </div>
-                    <div class="timeline-item">
-                        <h3>RIMC Dehradun</h3>
-                        <p class="timeline-date">8th Grade - 12th Grade</p>
-                        <p>Selected for this prestigious institution in 8th grade.</p>
-                    </div>
-                    <div class="timeline-item">
-                        <h3>Little Flower Convent, Biloli</h3>
-                        <p class="timeline-date">Till 7th Grade</p>
-                        <p>Completed early education.</p>
+                    <div class="education-right">
+                        <p class="location">Dehradun, Uttarakhand</p>
+                        <p class="date">June 2018 – May 2023</p>
                     </div>
                 </div>
-
-                <h3>Achievements</h3>
-                <ul class="achievements-list">
-                    <li>2 silver medals and 1 bronze medal in High Jump (athletics event) at school.</li>
-                    <li>Completed Paragliding Adventure course at Ahmednagar in 9th grade.</li>
-                    <li>1st price in creative writing for writing a poem in school in 8th grade.</li>
-                    <li>JEE Main Rank: 5239</li>
-                    <li>JEE Advanced Rank: 7200</li>
-                </ul>
+                <div class="education-image-placeholder">
+                    <img src="images/rimc-placeholder.jpg" alt="RIMC Dehradun" class="institution-image">
+                </div>
+                <div class="description">
+                    <p>RIMC is a premier Category 'A' institution under the Ministry of Defence with a century-long legacy of excellence. Selected through a highly competitive All-India entrance examination (top 25 nationally), the curriculum emphasized leadership, disciplined living, and character building. As a "Cradle of Excellence," the school is renowned for producing national leaders, including several Chiefs of the Armed Forces and gallantry award winners.</p>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <div class="container">
-                <h2>Technical Skills</h2>
-                <div class="skills-container">
-                    <div class="skill-category">
-                        <h3>Programming Languages</h3>
-                        <ul class="skills-list">
-                            <li>C</li>
-                            <li>C++</li>
-                            <li>Python</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Experience In</h3>
-                        <ul class="skills-list">
-                            <li>Web Development</li>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            
+            <div class="project-item">
+                <div class="project-header">
+                    <h3>
+                        Churn Prediction 
+                        <a href="https://github.com/Yash-More1224/churn_prediction" target="_blank" class="github-link">
+                            <img src="images/github-icon.svg" alt="GitHub" class="github-icon">
+                        </a>
+                    </h3>
+                    <p class="project-date">Oct 2025</p>
+                </div>
+                <p class="project-description">Built an XGBoost-based churn prediction model with rich feature engineering, achieving <strong>88% precision</strong> on the Auto Insurance Churn dataset. Used SHAP for explainability to identify key drivers of churn, and deployed the model via Streamlit to enable non-technical users to make predictions and visualize influential features interactively.</p>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3>
+                        Unix-like Interactive Shell 
+                        <a href="https://github.com/Yash-More1224/shell" target="_blank" class="github-link">
+                            <img src="images/github-icon.svg" alt="GitHub" class="github-icon">
+                        </a>
+                    </h3>
+                    <p class="project-date">Aug 2025 - Sep 2025</p>
+                </div>
+                <p class="project-description">Developed a Unix-like interactive shell capable of parsing and executing user commands with support for built-in intrinsics. Implemented advanced features such as I/O redirection, piping, job control, and command history management to mimic real shell behavior and enhance user interaction.</p>
+            </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <h3>
+                        Distributed Collaborative File Editor 
+                        <a href="https://github.com/Yash-More1224/file_editor" target="_blank" class="github-link">
+                            <img src="images/github-icon.svg" alt="GitHub" class="github-icon">
+                        </a>
+                    </h3>
+                    <p class="project-date">Nov 2025</p>
+                </div>
+                <p class="project-description">Distributed collaborative file editor with multi-server storage and user locking for concurrent edits. Mimics Google Docs functionality, ensuring seamless real-time collaboration across storage nodes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Position of Responsibility Section -->
+    <section id="responsibility" class="section">
+        <div class="container">
+            <h2>Position of Responsibility</h2>
+            <div class="responsibility-item">
+                <h3>E-Cell Corporate Team Member, IIITH</h3>
+                <p>Helped acquire sponsors and funding totaling to <strong>15 Lakhs+</strong> for multiple events including Megathon, Hyderabad's largest Student-Run Hackathon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul class="achievements-list">
+                <li><strong>AIR 5234</strong> - In JEE–Mains (Jan 2024)</li>
+                <li><strong>AIR 7000</strong> - In JEE–Advanced (May 2024)</li>
+                <li><strong>Got selected at RIMC</strong> - Only 25 students qualify all over India, around 1 student per state. (June 2018)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-list">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">PyTorch</span>
+                <span class="skill-tag">NumPy</span>
+                <span class="skill-tag">Pandas</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">NLTK</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">C</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Yash Sunil More. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
                             <li>Data Structures and Algorithms</li>
                             <li>Python Programming</li>
                         </ul>
